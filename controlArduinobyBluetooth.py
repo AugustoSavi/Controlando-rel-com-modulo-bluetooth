@@ -98,7 +98,7 @@ class Application():
         try:
             #Passa o audio para o reconhecedor de padroes do speech_recognition
             frase = microfone.recognize_google(audio,language='pt-BR')
-            #Após alguns segundos, retorna a frase falada
+            #Após alguns segundos, retorna a frase falada1
             print("Você disse: " + frase)
 
             #Caso nao tenha reconhecido o padrao de fala, exibe esta mensagem
